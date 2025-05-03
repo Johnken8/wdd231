@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Programming with Functions",
             description: "Learn programming functions, parameters, and return values",
             credits: 3,
-            completed: false,
+            completed: true,
             subject: "CSE"
         },
         {
