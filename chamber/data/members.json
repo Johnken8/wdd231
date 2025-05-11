@@ -1,0 +1,85 @@
+{
+    "members": [
+      {
+        "name": "Dangote Group",
+        "address": "1 Alfred Rewane Road, Ikoyi, Lagos",
+        "phone": "+234 1 448 0815",
+        "website": "https://www.dangote.com",
+        "image": "dangote.jpg",
+        "membershipLevel": 3,
+        "description": "A Nigerian multinational industrial conglomerate, specializing in cement production, sugar refining, flour milling, and more."
+      },
+      {
+        "name": "GTBank",
+        "address": "635 Akin Adesola Street, Victoria Island, Lagos",
+        "phone": "+234 1 448 0000",
+        "website": "https://www.gtbank.com",
+        "image": "gtbank.jpg",
+        "membershipLevel": 3,
+        "description": "A leading African financial institution providing a range of banking services to corporate and retail clients."
+      },
+      {
+        "name": "Nigerian Breweries Plc",
+        "address": "1 Abebe Village Road, Iganmu, Lagos",
+        "phone": "+234 1 471 7400",
+        "website": "https://www.nbplc.com",
+        "image": "nbplc.jpg",
+        "membershipLevel": 2,
+        "description": "The pioneer and largest brewing company in Nigeria, brewing premium quality brands."
+      },
+      {
+        "name": "Zenith Bank",
+        "address": "87 Ajose Adeogun Street, Victoria Island, Lagos",
+        "phone": "+234 1 278 3811",
+        "website": "https://www.zenithbank.com",
+        "image": "zenith.jpg",
+        "membershipLevel": 2,
+        "description": "A leading financial institution in Nigeria offering a wide range of banking products and services."
+      },
+      {
+        "name": "MTN Nigeria",
+        "address": "4 Aromire Road, Ikoyi, Lagos",
+        "phone": "+234 803 903 0000",
+        "website": "https://www.mtnonline.com",
+        "image": "mtn.jpg",
+        "membershipLevel": 3,
+        "description": "Nigeria's leading telecommunications provider offering voice, data and digital services."
+      },
+      {
+        "name": "Oando Plc",
+        "address": "2 Ajose Adeogun Street, Victoria Island, Lagos",
+        "phone": "+234 1 270 2400",
+        "website": "https://www.oandoplc.com",
+        "image": "oando.jpg",
+        "membershipLevel": 2,
+        "description": "An integrated energy solutions provider with operations across the energy value chain."
+      },
+      {
+        "name": "Access Bank",
+        "address": "Plot 999c, Danmole Street, Victoria Island, Lagos",
+        "phone": "+234 1 271 2005",
+        "website": "https://www.accessbankplc.com",
+        "image": "access.jpg",
+        "membershipLevel": 2,
+        "description": "A leading full-service commercial bank operating through a network of branches across Nigeria and Sub-Saharan Africa."
+      },
+      {
+        "name": "Innoson Motors",
+        "address": "1 Innoson Boulevard, Nnewi, Anambra",
+        "phone": "+234 806 738 7218",
+        "website": "https://www.innosonmotors.com",
+        "image": "innoson.jpg",
+        "membershipLevel": 1,
+        "description": "Nigeria's first indigenous vehicle manufacturing company specializing in manufacturing of commercial vehicles, utility vehicles, and passenger cars."
+      },
+      {
+        "name": "Globacom Limited",
+        "address": "Mike Adenuga Towers, 1 Mike Adenuga Close, Victoria Island, Lagos",
+        "phone": "+234 805 500 0500",
+        "website": "https://www.gloworld.com",
+        "image": "glo.jpg",
+        "membershipLevel": 3,
+        "description": "A Nigerian multinational telecommunications company and the second largest operator in Nigeria."
+      }
+    ]
+  }
