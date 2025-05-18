@@ -1,0 +1,137 @@
+/* Large View CSS */
+@media only screen and (min-width: 900px) {
+    /* Typography */
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h3 {
+        font-size: 1.4rem;
+    }
+    
+    /* Layout */
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    
+    /* Header */
+    header {
+        padding: 0;
+    }
+    
+    .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+    }
+    
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .logo-text h1 {
+        font-size: 2rem;
+    }
+    
+    .logo-text p {
+        font-size: 1rem;
+    }
+    
+    /* Navigation */
+    #hamburger-btn {
+        display: none;
+    }
+    
+    nav {
+        background-color: var(--primary-color);
+    }
+    
+    #primary-nav {
+        display: flex;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    #primary-nav li {
+        border: none;
+        flex: 1;
+        max-width: 200px;
+    }
+    
+    #primary-nav a {
+        padding: 1rem;
+    }
+    
+    .date-banner {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    /* Hero Section */
+    .hero-overlay h2 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-overlay p {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .cta-button {
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+    }
+    
+    /* Home Grid and Cards */
+    .home-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    .event-card {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .weather-card {
+        grid-column: 3 / 5;
+        grid-row: 1 / 2;
+    }
+    
+    .join-card {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    
+    .news-card {
+        grid-column: 2 / 5;
+        grid-row: 2 / 3;
+    }
+    
+    .spotlights-card {
+        grid-column: 1 / 5;
+        grid-row: 3 / 4;
+    }
+    
+    /* Spotlight */
+    .spotlight-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 2rem;
+    }
+    
+    .footer-content, .footer-base {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}

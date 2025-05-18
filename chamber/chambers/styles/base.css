@@ -1,0 +1,468 @@
+/* Base CSS - Mobile First */
+:root {
+    /* Color Scheme */
+    --primary-color: #1e5b94;    /* Deep Blue */
+    --secondary-color: #e67e22;  /* Orange */
+    --accent-color: #2ecc71;     /* Green */
+    --dark-bg: #34495e;          /* Dark Slate */
+    --light-bg: #f5f5f5;         /* Light Gray */
+    --text-dark: #333333;        /* Near Black */
+    --text-light: #ffffff;       /* White */
+    --shadow: 0 2px 5px rgba(0,0,0,0.1);
+    --card-border: 1px solid #e0e0e0;
+}
+
+/* Typography */
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: var(--text-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+/* Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--light-bg);
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    box-shadow: var(--shadow);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.logo-text h1 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.logo-text p {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.social-container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Navigation */
+#hamburger-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-light);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#hamburger-btn span:nth-child(1) {
+    display: block;
+}
+
+#hamburger-btn span:nth-child(2) {
+    display: none;
+}
+
+#hamburger-btn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburger-btn.open span:nth-child(2) {
+    display: block;
+}
+
+nav {
+    background-color: var(--dark-bg);
+}
+
+#primary-nav {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#primary-nav.open {
+    display: block;
+}
+
+#primary-nav li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#primary-nav li:last-child {
+    border-bottom: none;
+}
+
+#primary-nav a {
+    display: block;
+    padding: 0.8rem 1rem;
+    color: var(--text-light);
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+#primary-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#primary-nav li.active a {
+    background-color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.date-banner {
+    background-color: var(--secondary-color);
+    color: var(--text-light);
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--text-light);
+    padding: 1rem;
+}
+
+.hero-overlay h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-overlay p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    background-color: var(--secondary-color);
+    color: var(--text-light);
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #d35400;
+}
+
+/* Home Grid and Cards */
+.home-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.event-card,
+.weather-card,
+.news-card,
+.join-card,
+.spotlights-card {
+    background-color: var(--text-light);
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.event-card h3,
+.weather-card h3,
+.news-card h3,
+.join-card h3,
+.spotlights-card h3 {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 0.75rem 1rem;
+    margin: 0;
+}
+
+.event-content,
+.weather-content,
+.news-content,
+.join-content {
+    padding: 1rem;
+}
+
+.event-date {
+    color: var(--secondary-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.more-info {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.more-info:hover {
+    text-decoration: underline;
+}
+
+/* Weather Specific */
+.current-weather {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+#weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.temp-container {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.weather-desc {
+    text-transform: capitalize;
+}
+
+.weather-forecast h4 {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecast-day {
+    text-align: center;
+    flex: 1;
+}
+
+.forecast-date {
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.forecast-temp {
+    font-weight: 700;
+}
+
+/* Join Section */
+.join-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.join-button {
+    background-color: var(--accent-color);
+    color: var(--text-light);
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 1rem 0;
+    transition: background-color 0.3s;
+}
+
+.join-button:hover {
+    background-color: #27ae60;
+}
+
+.membership-levels {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Spotlights */
+.spotlight-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.spotlight {
+    border: var(--card-border);
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.spotlight-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-name {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-contact {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-membership {
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.spotlight-website {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+.spotlight-website:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0.5rem;
+}
+
+.footer-name h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-contact {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer-contact a {
+    color: var(--text-light);
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+.footer-base {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+#last-modified {
+    font-style: italic;
+    margin-top: 0.5rem;
+}

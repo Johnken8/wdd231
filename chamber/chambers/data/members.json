@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Sunrise Tech Solutions",
+        "address": "24 Ademola Adetokunbo Crescent, Wuse II",
+        "phone": "+234 802 345 6789",
+        "website": "https://sunrisetech.com",
+        "image": "images/members/sunrise-tech.webp",
+        "membershipLevel": "gold"
+    },
+    {
+        "id": 2,
+        "name": "Eagle Bank PLC",
+        "address": "15 Aguiyi Ironsi Street, Maitama",
+        "phone": "+234 703 456 7890",
+        "website": "https://eaglebank.com",
+        "image": "images/members/eagle-bank.webp",
+        "membershipLevel": "gold"
+    },
+    {
+        "id": 3,
+        "name": "GlobalHealth Medical Center",
+        "address": "87 Aminu Kano Crescent, Wuse II",
+        "phone": "+234 809 567 8901",
+        "website": "https://globalhealth.org",
+        "image": "images/members/global-health.webp",
+        "membershipLevel": "silver"
+    },
+    {
+        "id": 4,
+        "name": "Royal Suites Hotel",
+        "address": "56 Gana Street, Maitama",
+        "phone": "+234 812 678 9012",
+        "website": "https://royalsuites.com",
+        "image": "images/members/royal-suites.webp",
+        "membershipLevel": "gold"
+    },
+    {
+        "id": 5,
+        "name": "Unity Insurance Ltd",
+        "address": "42 Adetokunbo Ademola Crescent, Wuse II",
+        "phone": "+234 708 789 0123",
+        "website": "https://unityinsurance.com",
+        "image": "images/members/unity-insurance.webp",
+        "membershipLevel": "silver"
+    },
+    {
+        "id": 6,
+        "name": "Green Earth Farms",
+        "address": "13 Sani Abacha Way, Garki",
+        "phone": "+234 803 890 1234",
+        "website": "https://greenearthfarms.com", 
+        "image": "images/members/green-earth.webp",
+        "membershipLevel": "bronze"
+    },
+    {
+        "id": 7,
+        "name": "Digital Marketing Pro",
+        "address": "71 Bala Mohammed Road, CBD",
+        "phone": "+234 705 901 2345",
+        "website": "https://digitalmarketingpro.com",
+        "image": "images/members/digital-marketing.webp",
+        "membershipLevel": "silver"
+    },
+    {
+        "id": 8,
+        "name": "Bright Future Academy",
+        "address": "5 Muhammadu Buhari Way, Garki II",
+        "phone": "+234 809 012 3456",
+        "website": "https://brightfuture.edu",
+        "image": "images/members/bright-future.webp",
+        "membershipLevel": "bronze"
+    },
+    {
+        "id": 9,
+        "name": "Capital Construction Ltd",
+        "address": "110 Herbert Macaulay Way, CBD",
+        "phone": "+234 802 123 4567",
+        "website": "https://capitalconstruction.com",
+        "image": "images/members/capital-construction.webp",
+        "membershipLevel": "silver"
+    },
+    {
+        "id": 10,
+        "name": "Harmony Legal Associates",
+        "address": "33 Constitution Avenue, Central District",
+        "phone": "+234 701 234 5678",
+        "website": "https://harmonylegal.com",
+        "image": "images/members/harmony-legal.webp",
+        "membershipLevel": "gold"
+    }
+]
