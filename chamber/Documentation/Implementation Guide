@@ -127,3 +127,6 @@ This implementation meets all the requirements specified in the rubric:
 - Current events section is included
 - Weather section uses API data with all required elements
 - Company spotlights use JSON data with random selection of gold/silver members
+
+## Additional Resources
+For accurate weather data, register for a free API key at: https://openweathermap.org/api
