@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Abuja Chamber of Commerce - Supporting local businesses and fostering economic growth in the Abuja region">
     <meta name="author" content="Chukwuebuka Johnkennedy Uche">
+    <!-- Added Open Graph Tags -->
+    <meta property="og:title" content="Abuja Chamber of Commerce | Home">
+    <meta property="og:description" content="Discover how the Abuja Chamber of Commerce supports local businesses through networking, resources, and advocacy. Join us today!">
+    <meta property="og:image" content="images/logo.webp">
+    <meta property="og:url" content="https://johnken8.github.io/wdd231/chamber/">
     <title>Abuja Chamber of Commerce | Home</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -13,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
     <script src="scripts/app.js" defer></script>
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/spotlight.js" defer></script>
@@ -24,8 +29,8 @@
             <div class="logo-container">
                 <img src="images/logo.webp" alt="Abuja Chamber of Commerce Logo" class="logo">
                 <div class="logo-text">
-                    <h1>Abuja Chamber</h1>
-                    <p>of Commerce</p>
+                    <h1>Abuja Chamber of Commerce</h1>
+                    <p>Supporting Business Growth</p>
                 </div>
             </div>
             <div class="social-container">
@@ -36,7 +41,7 @@
                     <img src="images/linkedin.png" alt="LinkedIn" class="social-icon">
                 </a>
             </div>
-            <button id="hamburger-btn">
+            <button id="hamburger-btn" aria-label="Menu">
                 <span>&#9776;</span>
                 <span>X</span>
             </button>
